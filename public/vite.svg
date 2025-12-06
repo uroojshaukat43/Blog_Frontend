@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 404" width="410" height="404">
+  <defs>
+    <linearGradient id="vite-a" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"/>
+      <stop offset="45%" stop-color="#BD34FE"/>
+      <stop offset="100%" stop-color="#FFEA83"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#vite-a)" d="M12 12l172 380c6 13 23 13 29 0l172-380c5-12-4-25-17-25H29C16-13 7 0 12 12z"/>
+  <path fill="#FFEA83" d="M268 144l-76 174L134 144h134z"/>
+  <path fill="#BD34FE" d="M205 318L165 144h80l-40 174z"/>
+  <path fill="#41D1FF" d="M261 78h64l-120 266V162L195 78h66z"/>
+</svg>
+
