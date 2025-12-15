@@ -1,19 +1,11 @@
 import axios from 'axios';
-import api from "../services/api";
+
 
 // Use relative path for API - always use same origin as frontend
 // This works when frontend is served from backend on the same port
 // If you're using IIS, you'll need to configure IIS to proxy /api/* requests
 // OR update this to return the absolute backend URL (e.g., 'http://localhost:5000/api')
-const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL,
-});
 
-export default api;
-
-api.get("/posts")
-  .then(res => console.log(res.data))
-  .catch(err => console.error(err));
 
 const getApiBaseUrl = () => {
   // Check if we're in a browser environment
